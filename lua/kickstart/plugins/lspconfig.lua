@@ -221,6 +221,22 @@ return {
         -- ts_ls = {},
         --
 
+        clangd = {},
+
+        ruff = {
+          init_options = {
+            settings = {
+              lint = {
+                enable = false,
+              },
+            },
+          },
+        },
+
+        basedpyright = {},
+
+        rust_analyzer = {},
+
         lua_ls = {
           -- cmd = { ... },
           -- filetypes = { ... },
